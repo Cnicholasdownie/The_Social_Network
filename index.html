@@ -1,0 +1,261 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Social Network Login</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+      <link rel="stylesheet" href="css/Everything_Else.css" />
+      <link rel="stylesheet" href="css/foundation-icons/foundation-icons.css">
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+                 <!-- Top bar that goes across the screen -->
+
+
+                 <!-- Creating a row to divide the page -->
+
+                 <div>
+                     <a>  </a>
+                 </div>
+                 <div class="fixed">
+
+       <nav class="top-bar" data-topbar role="navigation">
+
+           <!-- when on smaller devices create a toggle menu-->
+           <ul class="title-area">
+               <!-- Name for the website -->
+               <li class="name"> <h1> <a href="#"> The Social Network</a> </h1> </li>
+               <!-- when on smaller devices create a toggle menu-->
+
+               <li class="toggle-topbar menu-icon"> <a href="#"> <span>Menu</span> </a> </li>
+
+           </ul>
+
+           <section class="top-bar-section">
+
+               <!-- Right navigation section of the top bar -->
+               <ul class="right">
+
+                   <li><a href="Login.html">Logout</a> </li>
+                   <li class="divider"></li>
+                   <li> <a href="Friends.html">Friends</a> </li>
+                   <li class="divider"></li>
+                   <li> <a href="#">News Feed</a> </li>
+                   <li class="divider"></li>
+                   <li class="has-dropdown"> <a href="#">Profile</a>
+                       <!-- Drop down for profile button -->
+                       <ul class="dropdown">
+                           <li class="active"> <a href="#">View Profile</a> </li>
+                           <li> <a href="#">Account</a> </li>
+                           <li> <a href="#">Privacy</a> </li>
+                           <li> <a href="#">Mobile</a> </li>
+                           <li class="has-dropdown"> <a href="#">General Settings</a>
+
+                               <!-- Drop down for the general settings button -->
+                           <ul class="dropdown">
+                               <li class="label">Customization</li>
+                               <li><a href="#">Customize News Feed</a> </li>
+                               <li><a href="#">Change Theme Color</a> </li>
+                               <li><a href="#">Delete Friends</a> </li>
+                               <li><a href="#">Home Page Settings</a> </li>
+                           </ul>
+                           </li>
+
+                       </ul>
+                   </li>
+               </ul>
+
+               <!--Left navigation Section of top bar -->
+
+               <ul class="left">
+
+                   <li> <a href="#"> <img src="#"></a> </li> <!-- This is the image for the website -->
+                   <!-- This li below is used to create the search form -->
+                   <li class="has-form">
+                       <div class="row collapse">
+                           <div class="large-8 small-9 columns">
+                               <input type="text" placeholder="Find Friends...">
+                           </div>
+                           <div class="large-4 small-3 columns">
+                               <a href="Friends.html" class="alert button expand">Search</a>
+                           </div>
+                       </div>
+                   </li>
+
+
+               </ul>
+           </section>
+       </nav>
+                 </div>
+<!--This is where the fixed nav ends for the sticky nav-->
+                 <div class="row">
+
+                     <!-- creating the right section for the profile picture -->
+
+                     <div class="large-5 small-12 columns">
+
+                         <div class="Profile_Login"> <!-- class for creating the profile icon -->
+
+                         </div>
+
+                     </div>
+                     <div class="large-7 small-12 medium-8 columns">
+
+                          <!-- News Feed Section -->
+
+                         <div class="feed">
+                             <ul class="tabs" data-tab role="tablist">
+                                 <li class="tab-title active" role="presentation"><a href="#panel2-1" role="tab" tabindex="0" aria-selected="true" aria-controls="panel2-1">Share location</a></li>
+                                 <li class="tab-title" role="presentation"><a href="#panel2-2" role="tab" tabindex="0" aria-selected="false" aria-controls="panel2-2">Status</a></li>
+                                 <li class="tab-title" role="presentation"><a href="#panel2-3" role="tab" tabindex="0" aria-selected="false" aria-controls="panel2-3">Photo</a></li>
+                                 <li class="tab-title" role="presentation"><a href="#panel2-4" role="tab" tabindex="0" aria-selected="false" aria-controls="panel2-4">Video</a></li>
+                             </ul>
+                             <div class="tabs-content">
+                                 <section role="tabpanel" aria-hidden="false" class="content active" id="panel2-1">
+                                     <h4>Share your location</h4>
+                                 </section>
+                                 <section role="tabpanel" aria-hidden="true" class="content" id="panel2-2">
+                                    <form>
+                                        <div class="row">
+                                            <div class="large-12">
+                                                <textarea placeholder="Whats on your mind.."></textarea>
+                                            </div>
+                                        </div>
+                                    </form>
+                                 </section>
+                                 <section role="tabpanel" aria-hidden="true" class="content" id="panel2-3">
+                                     <h4>Upload Image</h4>
+                                 </section>
+                                 <section role="tabpanel" aria-hidden="true" class="content" id="panel2-4">
+                                     <h4>Upload a video</h4>
+                                 </section>
+                             </div>
+
+                         </div>
+                         <!-- End of news feed -->
+                     </div>  <!-- end of the left section of the page -->
+
+
+
+
+                 </div> <!-- End of the row -->
+
+                 <!-- news feed tabs to the left vertically -->
+
+                 <div class="row">
+
+                     <div class="small-8 columns">
+
+                         <ul class="tabs vertical" data-tab>
+                             <li class="tab-title active"><a href="#panel11">Latest Tech</a></li>
+                             <li class="tab-title"><a href="#panel21">Latest News(local)</a></li>
+                             <li class="tab-title"><a href="#panel31">Latest Buzz</a></li>
+                             <li class="tab-title"><a href="#panel41">Random</a></li>
+                         </ul>
+                         <div class="tabs-content">
+                             <div class="content active" id="panel11">
+                                 <div class="panel">This is the first panel of the  basic tab example. <br />You can place all sorts of content here including a grid.and more
+                                     <br />recently with desktop publishing software like Aldus PageMaker including versions
+                                     of <br />Lorem Ipsum. It is a long established fact that a reader will be distracted by the readable
+                                     content of a page when looking at its layout. The point of using Lorem Ipsum is  </div>
+                             </div>
+                             <div class="content" id="panel21">
+                                 <div class="panel">This is the first panel of the  basic tab example. <br />You can place all sorts of content here including a grid.and more
+                                     <br />recently with desktop publishing software </div>
+                             </div>
+                             <div class="content" id="panel31">
+                                 <div class="panel">This is just some test information to differ from all of the other listed above in the other tabs .</div>
+                             </div>
+                             <div class="content" id="panel41">
+                                 <div class="panel">This is the fourth panel of the basic tab example. This is the fourth panel of the basic tab example.</div>
+                             </div>
+                         </div>
+
+                     </div>
+                     <!-- end of the vertical tabs -->
+
+
+                     <!-- below is the news feed information to the right -->
+
+                     <div class="small-4 columns " >
+
+                         <div id="information_Panels">
+
+                                 <div class="panel" >
+                                     <p>you require. the leap into electronic typesetting, remaining essentially
+                                         unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem psum passages,
+                                         and more recently with desktop publishing software like Aldus PageMaker including versions of
+                                         Lorem Ipsum. It is a long established fact that a reader will be distracted by the readable
+                                         content of a page when looking at its layout. The point of using Lorem Ipsum is
+                                         that it has a more-or-less normal distribution of letters, as opposed to using
+                                         'Content here, content here, <p/>
+                         </div>
+
+
+                     </div>
+
+                         <!-- end of the news feed information -->
+                 </div>
+                     <div class="row">
+                         <div class="large-4 small-6 columns">
+                             <div class="callout secondary">
+                                 <h5>This is the title </h5>
+                                 <p>This is some dummy content, This is just to test that the callout is acually working <br>
+                                 working and as you can see apparently it is working
+                                 </p>
+                                 <a href="#">This is the link</a>
+
+                             </div>
+
+
+                         </div>
+                         <div class="large-4  small-4 columns">
+
+                             <div class="callout primary">
+                             <h5>This is the title </h5>
+                             <p>This is some dummy content, This is just to test that the callout is acually working <br>
+                                 working and as you can see apparently it is working
+                             </p>
+                             <a href="#">This is the link</a>
+
+                         </div>
+
+                         </div>
+                         <i class="fi-pencil" style="font-size: 200% "></i>
+
+
+                         <div class="large-4 columns small-2">
+
+                             <div class="callout small">
+                             <h5>This is the title </h5>
+                             <p>This is some dummy content, This is just to test that the callout is acually working <br>
+                                 working and as you can see apparently it is working
+                             </p>
+                             <a href="#">This is the link</a>
+
+                         </div>
+
+                         </div>
+
+                     </div>
+                     <!--End of the three page links -->
+
+
+
+
+                 </div>
+
+
+
+
+                 <script src="js/vendor/jquery.js"></script>
+                 <script src="js/foundation.min.js"></script>
+                 <script>
+                     $(document).foundation();
+                 </script>
+
+
+  </body>
+
+</html>

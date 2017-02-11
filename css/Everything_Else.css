@@ -1,0 +1,62 @@
+body{
+    background-color: #f2f2f2;
+}
+
+
+
+.Profile_Login{
+
+    background-image: url("../img/2014-08-16%2011.28.22%20(2)%20-%20Copy.jpg");
+    background-size: cover;
+    border: solid;
+    border-color: #000000;
+    border-radius: 999px;
+    height: 220px;
+    width: 220px;
+    margin-top:20px;
+
+
+
+}
+
+
+
+
+.Profile_Buttons ul li  {
+    list-style-type: none;
+    position: relative;
+
+
+
+}
+.Profile_Buttons ul  {
+    list-style-type: none;
+    position: relative;
+    top:300px;
+    left: 21%;
+
+}
+
+.feed{
+    margin-top: 20px;
+
+}
+
+#center_log{
+    border-style: ridge ;
+    width: 50%;
+    height: 100px;
+    left: 25%;
+    top: 25%;
+    position: relative;
+}
+
+#information_Panels{
+    width: 400px;
+    background-color: green;
+}
+
+
+
+
+
